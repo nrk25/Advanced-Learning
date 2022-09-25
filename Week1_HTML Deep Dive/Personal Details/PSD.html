@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>personal Details Form</title>
+    <link rel="stylesheet" href="./psd.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form action="./PSD.html" class="personal-details">
+        <fieldset>
+          <legend>Personal Details</legend>
+          <div class="input-box">
+            <label for="name">Name: </label>
+            <input type="text" name="name" id="name" />
+          </div>
+          <div class="input-box">
+            <label for="password">Password: </label>
+            <input type="password" name="password" id="password" />
+          </div>
+          <div class="input-box">
+            <label for="email">E-mail id: </label>
+            <input type="email" name="email" id="email" />
+          </div>
+          <div class="input-box">
+            <label for="gender">Gender: </label>
+            <input type="radio" name="gender" id="male" /> Male
+            <input type="radio" name="gender" id="female" /> Female
+          </div>
+          <div class="input-box">
+            <label for="contact">Contact#: </label>
+            <input type="number" name="contact" id="contact" />
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Additional Information</legend>
+          <div class="input-box">
+            <label for="degree">Degree: </label>
+            <select name="degree" id="degree">
+              <option value="">-- Select Group --</option>
+              <option value="bsc">B.Sc</option>
+              <option value="bcom">B.Com</option>
+              <option value="btech">B.Tech</option>
+              <option value="mtech">M.Tech</option>
+              <option value="msc">M.Sc</option>
+              <option value="mcom">M.Com</option>
+            </select>
+          </div>
+          <div class="input-box">
+            <label for="hobbies">Hobbies: </label>
+            <input type="radio" name="chess" id="hobbies" /> Playing Chess
+            <input type="radio" name="readingbooks" id="hobbies" /> Reading Books
+          </div>
+          <div class="input-box">
+            <label for="photo"> Attach photo </label>
+            <input type="file" name="photo" id="photo" />
+          </div>
+        </fieldset>
+        <div class="output-box">
+          <input type="submit" name="submit" id="submit" value="Submit" />
+          <input type="reset" name="reset" id="reset" value="Reset" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
