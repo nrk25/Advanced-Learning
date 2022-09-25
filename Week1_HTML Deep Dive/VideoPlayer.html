@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VideoPlayer</title>
+    <link rel="stylesheet" href="./VideoPlayer.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Video Player</h1>
+      </header>
+      <section class="video-player">
+        <video id="video" >
+          <source
+            id="mp4"
+            src="https://media.w3.org/2010/05/sintel/trailer.mp4"
+            type="video/mp4"
+          />
+          <source
+            id="webm"
+            src="https://media.w3.org/2010/05/sintel/trailer.webm"
+            type="video/webm"
+          />
+          <source
+            id="ogv"
+            src="https://media.w3.org/2010/05/sintel/trailer.ogv"
+            type="video/ogv"
+          />
+        </video>
+        <div class="controls">
+          <button id="play" onclick="playVideo(this)">Play</button>
+          <button id="stop" onclick="stopVideo()">Stop</button>
+        </div>
+      </section>
+    </div>
+    <script src="./VideoPlayer1.js"></script>
+  </body>
+</html>

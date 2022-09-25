@@ -1,0 +1,38 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.video-player{
+    width: 60%;
+    height: auto;
+    color: #ffffff;
+    background-color: black;
+    margin-top: 15px;
+}
+
+.video-player video {
+    width: 100%;
+}
+
+.controls button {
+    margin: 0 0 15px 15px;
+    padding: 3px 15px;
+    border: 1px solid #ffffff;
+    background-color: black;
+    color: #ffffff;
+    border-radius: 4px;
+}
+
+.controls button:hover {
+    color: black;
+    background-color: #ffffff;
+
+}
