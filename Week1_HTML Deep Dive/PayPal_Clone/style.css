@@ -1,66 +1,204 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 * {
-    font-family: Helvetica, sans-serif;
-    margin: 0%;
+  font-family: Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  
 }
 
-body{
+header {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  background-color: #ffffff;
+  z-index: 5;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.logo {
+  width: 25%;
+  text-align: end;
+}
+
+.main-list {
+  width: 55%;
+}
+
+.main-list ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  transform: rotateX(45);
+}
+
+li i:hover {
+  transform: rotateX(45);
+}
+
+.header-buttons {
+  font-size: 0.75em;
+  font-weight: bold;
+  width: 20%;
+}
+
+.login {
+  border: 1px solid #0070ba;
+  border-radius: 20px;
+  text-decoration: none;
+  padding: 8px 25px;
+  color: #0070ba;
+}
+
+.signup {
+  border: 1px solid #0070ba;
+  border-radius: 20px;
+  text-decoration: none;
+  margin-left: 8px;
+  padding: 8px 15px;
+  color: #ffffff;
+  background-color: #0070ba;
+}
+
+.info-text {
+  position: relative;
+  display: flex;
+  background-color: #019cdf;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+  height: 610px;
+}
+
+.video-id {
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+  bottom: 0;
+}
+
+.info-text h1 {
+  font-size: 2.5rem;
+  padding: 10rem 15rem 3rem;
+  color: #ffffff;
+  font-weight: lighter;
+  z-index: 2;
+}
+.sign-up {
+  text-decoration: none;
+  color: #0d3685;
+  background-color: #ffffff;
+  padding: 15px 100px;
+  font-weight: bold;
+  border-radius: 25px;
+  box-shadow: 1px 1px #0070ba;
+  z-index: 23;
+}
+
+.business-container {
+  text-align: center;
+  background-color: #0d3685;
+  padding: 40px 20px;
+}
+
+.business-container h2 {
+  color: #ffffff;
+  padding: 0px 25px;
+  margin-bottom: 25px;
+  font-weight: lighter;
+}
+
+.business-container .sign-up {
+  padding: 15px;
+  font-size: small;
+}
+
+.shop-now {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  padding: 45px 75px;
+  height: 25rem;
+  background-color: #f5f7fa;
+  
+}
+
+.shop-now h1 {
+  color: #00a8ea;
+  padding-bottom: 25px;
+  font-size: 2.5rem;
+  width: 90%;
+  font-weight: lighter;
+}
+
+.shop-now h4 {
+  width: 85%;
+  font-weight: lighter;
+  padding-bottom: 35px;
+}
+
+.shop-now a {
+  text-decoration: none;
+  color: #0074c4;
+  padding: 15px 100px;
+  font-weight: bold;
+  border-radius: 25px;
+  border: 1px solid #0074c4;
+}
+
+.shop1 {
+    padding: 25px;
+}
+
+.img-control {
+  max-width: 90%;
+  max-height: 350px;
+}
+
+.shop2-now {
     display: flex;
     flex-direction: column;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    padding: 55px 75px;
+    height: 35rem;
+    background-color: #f5f7fa;
 }
 
-.container-header {
+.shop2-now h1 {
+    color: #00a8ea;
+    padding-bottom: 25px;
+    font-size: 2.5rem;
+    font-weight: lighter;
+  }
+
+  .image-stack {
     display: flex;
-    width: 100%;
     justify-content: space-around;
     align-items: center;
-}
+    width: 40%;
+  }
 
-.nav-header ul {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
+  .image-stack img {
+    width: 115px;
+  }
 
-.container-header .logo {
-    color: #0070ba;
-    font-style: italic;
-}
+  .section-end {
+    line-height: 1.60;
+    padding: 45px 45px 80px;
+  }
 
-span{
-    color: #04399c;
-}
-
-.nav-header ul {
-    padding: 10px;
-}
-
-.nav-header ul li {
-    list-style: none;
-    margin: 25px 10px;
-    padding: 0 35px;
-}
-
-.header-buttons button {
-    border: 1px solid #0070ba;
-    border-radius: 1rem;
-    padding: 10px;
-    margin: 8px;
-    width: 5rem;
-}
-
-.header-buttons button:hover {
-    cursor: pointer;
-}
-
-button {
-    color: #0070ba;
-    background-color: #ffffff;
-    font-weight: bold;
-}
-
-#signup {
-    color: #ffffff;
-    background-color: #0070ba;
-}
+  .section-end h5 {
+    font-weight: lighter;
+    font-size: .90rem;
+    line-height: 1.5;
+  }
