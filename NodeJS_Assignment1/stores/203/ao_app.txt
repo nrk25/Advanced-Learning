@@ -1,0 +1,438 @@
+﻿<configuration>
+  <configSections>
+    <!--### AsymmetricReportingConfiguration ###-->
+    <section name="AsymRepMaxNumberRestrictedKeyfigures" type="Int32" configurationLevel="UserRoaming" />
+    <section name="AsymRepQueryType" type="String" configurationLevel="UserRoaming" />
+    <!--### BoeConfiguration ###-->
+    <section name="BOESessionRefreshTime" type="Int32" configurationLevel="UserRoaming" />
+    <section name="BOESystems" type="String" configurationLevel="UserRoaming" />
+    <section name="DefaultLauncherScheme" type="String" configurationLevel="UserRoaming" />
+    <section name="RetrieveMultilingualTexts" type="Boolean" configurationLevel="UserRoaming" />
+    <section name="TwoFactorAuthenticationCertificate" type="String" configurationLevel="UserRoaming" />
+    <section name="TwoFactorAuthenticationDisabled" type="Boolean" configurationLevel="UserRoaming" />
+    <section name="TwoFactorAuthenticationUrl" type="String" configurationLevel="UserRoaming" />
+    <!--### DataSourceConfiguration ###-->
+    <section name="AllowChangingAccessMode" type="Boolean" configurationLevel="UserRoaming" />
+    <section name="BipSequentialDataTransferBufferSize" type="Int32" configurationLevel="UserRoaming" />
+    <section name="CurrentCodePage" type="Int32" configurationLevel="UserRoaming" />
+    <section name="DefaultBWQueryDesigner" type="Int32" configurationLevel="UserRoaming" />
+    <section name="EnablePreferredPlatform" type="Boolean" configurationLevel="UserRoaming" />
+    <section name="EnableResetDataSource" type="Boolean" configurationLevel="UserRoaming" />
+    <section name="GatewayServiceNo" type="Int32" configurationLevel="UserRoaming" />
+    <section name="IgnoreQueryDesignerVersionCheck" type="Boolean" configurationLevel="UserRoaming" />
+    <section name="MaxNumberOfParallelThreads" type="Int32" configurationLevel="UserRoaming" />
+    <section name="NoSystemMessages" type="Boolean" configurationLevel="UserRoaming" />
+    <section name="OpenDSTreeView" type="Boolean" configurationLevel="UserRoaming" />
+    <section name="PreferredPlatform" type="Int32" configurationLevel="UserRoaming" />
+    <section name="PromptForCertificate" type="Boolean" configurationLevel="UserRoaming" />
+    <section name="RecentListSize" type="Int32" configurationLevel="UserRoaming" />
+    <section name="RemoveDataBeforeSaving" type="Boolean" configurationLevel="UserRoaming" />
+    <section name="ResultSetSizeLimit" type="Int32" configurationLevel="PerMachine" />
+    <section name="RfcBundling" type="Boolean" configurationLevel="UserRoaming" />
+    <section name="SaveAnalysisViewInCrystalReportsCompatibleFormat" type="Boolean" configurationLevel="UserRoaming" />
+    <section name="SaveAs1xByDefault" type="Boolean" configurationLevel="UserRoaming" />
+    <section name="ShowBracketsForVirtualEntriesOfNonCumulativeKeyfigures" type="Boolean" configurationLevel="UserRoaming" />
+    <section name="SkipPreferringSystemIpAddressOverHostName" type="Boolean" configurationLevel="UserRoaming" />
+    <section name="SubsequentRefreshDefault" type="String" configurationLevel="UserRoaming" />
+    <section name="SupportsSaveAs1x" type="Boolean" configurationLevel="UserRoaming" />
+    <section name="UseDataSourceDeltaUpdate" type="Boolean" configurationLevel="UserRoaming" />
+    <section name="UseSapUILandscapeComApi" type="Boolean" configurationLevel="UserRoaming" />
+    <section name="UseThreadPool" type="Boolean" configurationLevel="UserRoaming" />
+    <!--### DateTimeConfiguration ###-->
+    <section name="EnableNativeFormatting" type="Boolean" configurationLevel="UserRoaming" />
+    <section name="ShowUtcTimeStampsInDataCells" type="Boolean" configurationLevel="UserRoaming" />
+    <!--### DocumentConfiguration ###-->
+    <section name="DefaultWorkbookPath" type="String" configurationLevel="UserRoaming" />
+    <section name="DocumentCacheFolderPath" type="String" configurationLevel="UserRoaming" />
+    <section name="IsCachingDocuments" type="Boolean" configurationLevel="UserRoaming" />
+    <section name="StylesCountPerformanceTreshold" type="Int32" configurationLevel="UserRoaming" />
+    <!--### FormulaConfiguration ###-->
+    <section name="SetFilterComponentApplyToAllDataSources" type="Boolean" configurationLevel="UserRoaming" />
+    <!--### FormulaEditorConfiguration ###-->
+    <section name="FormulaExpressionValidationInterval" type="Int32" configurationLevel="UserRoaming" />
+    <!--### GridConfiguration ###-->
+    <section name="EnableDoubleClick" type="Boolean" configurationLevel="UserRoaming" />
+    <section name="NrOfSingleCellsInContext" type="Int32" configurationLevel="UserRoaming" />
+    <!--### HanaConfiguration ###-->
+    <section name="HanaHttpConnectionTimeout" type="Int32" configurationLevel="UserRoaming" />
+    <section name="HanaHttpSessionPingInterval" type="Int32" configurationLevel="UserRoaming" />
+    <!--### NavPaneConfiguration ###-->
+    <section name="ShowAllHierarchies" type="Boolean" configurationLevel="UserRoaming" />
+    <section name="ShowProperties" type="Boolean" configurationLevel="UserRoaming" />
+    <!--### NewLinesConfiguration ###-->
+    <section name="UseNewLinesLegacyMode" type="Boolean" configurationLevel="UserRoaming" />
+    <!--### PaGridConfiguration ###-->
+    <section name="ColumnsOfData" type="Int32" configurationLevel="UserRoaming" />
+    <section name="LinesOfData" type="Int32" configurationLevel="UserRoaming" />
+    <!--### PlanningConfiguration ###-->
+    <section name="ActivateFormulaRecognitionOnExistingCells" type="Boolean" configurationLevel="UserRoaming" />
+    <section name="AutoCompleteFetchMemberLimit" type="Int32" configurationLevel="UserRoaming" />
+    <section name="IgnoreCaseForNewLineCharacteristics" type="Boolean" configurationLevel="UserRoaming" />
+    <section name="InputReadyCellsValueHelpMemberAccessMode" type="String" configurationLevel="UserRoaming" />
+    <section name="NewLineCheckMode" type="String" configurationLevel="UserRoaming" />
+    <section name="NumberOfNewLines" type="Int32" configurationLevel="UserRoaming" />
+    <section name="SetEmptiedDoubleDataCellsToValue0" type="Boolean" configurationLevel="UserRoaming" />
+    <section name="ShowNewLinesOnTop" type="Boolean" configurationLevel="UserRoaming" />
+    <!--### SelectorConfiguration ###-->
+    <section name="AllowLeavesViewInHierarchicalSelector" type="Boolean" configurationLevel="UserRoaming" />
+    <section name="DoSelectorHierarchyExplicitSelection" type="Boolean" configurationLevel="UserRoaming" />
+    <section name="EnableMassDataSelector" type="Boolean" configurationLevel="UserRoaming" />
+    <section name="EnforceDatePickerForCalendarDayVariable" type="Boolean" configurationLevel="UserRoaming" />
+    <section name="FetchMemberLimit" type="Int32" configurationLevel="UserRoaming" />
+    <section name="PasteMemberParsingOptions" type="CrClipBoardParsingOptions" configurationLevel="UserRoaming" />
+    <section name="PropagateSelectionInStructures" type="Boolean" configurationLevel="UserRoaming" />
+    <!--### TaskPaneConfiguration ###-->
+    <section name="SynchronizeRuleEditorWithCrosstab" type="Boolean" configurationLevel="UserRoaming" />
+    <section name="TaskPaneDockPosition" type="Int32" configurationLevel="UserRoaming" />
+    <section name="TaskPaneHeight" type="Int32" configurationLevel="UserRoaming" />
+    <section name="TaskPaneWidth" type="Int32" configurationLevel="UserRoaming" />
+    <!--### UiCommonConfiguration ###-->
+    <section name="CheckInfoAreasAuthorization" type="Boolean" configurationLevel="UserRoaming" />
+    <section name="ForceRefreshConnectionInfo" type="Boolean" configurationLevel="UserRoaming" />
+    <section name="HierarchyCollapsePaddingCols" type="String" configurationLevel="UserRoaming" />
+    <section name="HierarchyCollapsePaddingRows" type="String" configurationLevel="UserRoaming" />
+    <section name="HierarchyCollapseSymbolCols" type="String" configurationLevel="UserRoaming" />
+    <section name="HierarchyCollapseSymbolRows" type="String" configurationLevel="UserRoaming" />
+    <section name="HierarchyExpandPaddingCols" type="String" configurationLevel="UserRoaming" />
+    <section name="HierarchyExpandPaddingRows" type="String" configurationLevel="UserRoaming" />
+    <section name="HierarchyExpandSymbolCols" type="String" configurationLevel="UserRoaming" />
+    <section name="HierarchyExpandSymbolRows" type="String" configurationLevel="UserRoaming" />
+    <section name="MessagePopupSeverity" type="String" configurationLevel="UserRoaming" />
+    <section name="ShowSuppressedMessages" type="Boolean" configurationLevel="UserRoaming" />
+    <section name="TextKeyDisplay" type="String" configurationLevel="UserRoaming" />
+    <section name="UseAdvancedHierarchySettings" type="Boolean" configurationLevel="UserRoaming" />
+    <!--### UsageConfiguration ###-->
+    <section name="AoTenantSite" type="String" configurationLevel="UserRoaming" />
+    <section name="ContinousUsageDataUploadIntervalInDays" type="Int32" configurationLevel="UserRoaming" />
+    <section name="FailedPingCounter" type="Int32" configurationLevel="UserRoaming" />
+    <section name="LastContinousUsageDataUpload" type="String" configurationLevel="UserRoaming" />
+    <section name="LastPeriodicUsageDataUpload" type="String" configurationLevel="UserRoaming" />
+    <section name="TrackUsage" type="Boolean" configurationLevel="UserRoaming" />
+    <section name="UsageDataPauseDate" type="String" configurationLevel="UserRoaming" />
+    <!--### UtilitiesConfiguration ###-->
+    <section name="AbapTrace" type="Int32" configurationLevel="UserRoaming" />
+    <section name="AlwaysDoApplicationSteps" type="Boolean" configurationLevel="UserRoaming" />
+    <section name="BexAdvancedMode" type="Boolean" configurationLevel="UserRoaming" />
+    <section name="CancelPopupDelay" type="Int32" configurationLevel="UserRoaming" />
+    <section name="CheckIfWorkbookIsInplaceWhenWindowIsActivated" type="Boolean" configurationLevel="UserRoaming" />
+    <section name="Profiling" type="Boolean" configurationLevel="UserRoaming" />
+    <section name="ShowConvertToForumulaInToolsGroup" type="Boolean" configurationLevel="UserRoaming" />
+    <section name="ShowCreateWebApplicationInToolsGroup" type="Boolean" configurationLevel="UserRoaming" />
+    <section name="ShowPlanningToolbar" type="Boolean" configurationLevel="UserRoaming" />
+    <section name="ShowSsoLogonDialog" type="Boolean" configurationLevel="UserRoaming" />
+    <section name="ShowSsoLogonDialogBip" type="Boolean" configurationLevel="UserRoaming" />
+    <section name="SupportAutomatedOffice" type="Boolean" configurationLevel="UserRoaming" />
+    <section name="UndoStackSize" type="Int32" configurationLevel="UserRoaming" />
+    <!--### VariableConfiguration ###-->
+    <section name="AllowLiteralMemberSelectionsInVariablesHana" type="Boolean" configurationLevel="UserRoaming" />
+    <section name="DisplayCompoundAsKeys" type="Boolean" configurationLevel="UserRoaming" />
+    <section name="MergeVariables" type="Boolean" configurationLevel="UserRoaming" />
+    <section name="OperatorContainsPattern" type="Boolean" configurationLevel="UserRoaming" />
+    <section name="PreferLeavesOverNodesInInputString" type="Boolean" configurationLevel="UserRoaming" />
+    <section name="PromptWhenInsertingDataSource" type="Boolean" configurationLevel="UserRoaming" />
+    <section name="ShowDSVariantsForWorkbooksWithOneDS" type="Boolean" configurationLevel="UserRoaming" />
+    <section name="TextKeyDisplayForPrompts" type="String" configurationLevel="UserRoaming" />
+    <!--### WaterfallChartConfiguration ###-->
+    <section name="RGBValueColumns" type="String" configurationLevel="UserRoaming" />
+    <section name="RGBValueNegative" type="String" configurationLevel="UserRoaming" />
+    <section name="RGBValuePositive" type="String" configurationLevel="UserRoaming" />
+    <!--### WorkbookConversionConfiguration ###-->
+    <section name="ConversionType" type="Int32" configurationLevel="UserRoaming" />
+    <section name="EnableAnalysisViewConversion" type="Boolean" configurationLevel="UserRoaming" />
+    <section name="EnableWorkbookConversion" type="Boolean" configurationLevel="UserRoaming" />
+    <section name="LogType" type="Int32" configurationLevel="UserRoaming" />
+    <section name="RefreshType" type="Int32" configurationLevel="UserRoaming" />
+    <section name="ShowSaveDialog" type="Boolean" configurationLevel="UserRoaming" />
+    <!--### WorkspaceConfiguration ###-->
+    <section name="EnableWorkspaces" type="Boolean" configurationLevel="UserRoaming" />
+    <section name="WrapHierarchyNodesInColumns" type="String" configurationLevel="UserRoaming" />
+  </configSections>
+  <!--### AsymmetricReportingConfiguration ###-->
+  <!--default of 'AsymRepMaxNumberRestrictedKeyfigures': value="500" -->
+  <AsymRepMaxNumberRestrictedKeyfigures />
+  <!--default of 'AsymRepQueryType': value="Default" -->
+  <AsymRepQueryType />
+  <!--### BoeConfiguration ###-->
+  <!--default of 'BOESessionRefreshTime': value="-1" -->
+  <BOESessionRefreshTime />
+  <!--default of 'BOESystems': value="" -->
+
+<BOESystems>
+<![CDATA[<?xml version="1.0" encoding="utf-16"?>
+<ArrayOfCoBoeSystemInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+<CoBoeSystemInfo>
+<SystemId>bo.nbs.novartis.net</SystemId>
+<Hostname>bo.nbs.novartis.net</Hostname>
+<Scheme>https</Scheme>
+<Port>8443</Port>
+<SessionServiceUrl>/dswsbobje/services/Session</SessionServiceUrl>
+<Active>true</Active>
+<UseSso>true</UseSso>
+<LastUsedAuthentication>secWinAD</LastUsedAuthentication>
+<CMSNames><string/></CMSNames>
+</CoBoeSystemInfo>
+</ArrayOfCoBoeSystemInfo>
+]]>
+</BOESystems>
+
+  <!--default of 'DefaultLauncherScheme': value="" -->
+  <DefaultLauncherScheme />
+  <!--default of 'RetrieveMultilingualTexts': value="True" -->
+  <RetrieveMultilingualTexts />
+  <!--default of 'TwoFactorAuthenticationCertificate': value="" -->
+  <TwoFactorAuthenticationCertificate />
+  <!--default of 'TwoFactorAuthenticationDisabled': value="False" -->
+  <TwoFactorAuthenticationDisabled />
+  <!--default of 'TwoFactorAuthenticationUrl': value="" -->
+  <TwoFactorAuthenticationUrl />
+  <!--### DataSourceConfiguration ###-->
+  <!--default of 'AllowChangingAccessMode': value="False" -->
+  <AllowChangingAccessMode value="true"/>
+  <!--default of 'BipSequentialDataTransferBufferSize': value="262144" -->
+  <BipSequentialDataTransferBufferSize />
+  <!--'CurrentCodePage': default: Encoding for the system's current code page.-->
+  <CurrentCodePage />
+  <!--default of 'DefaultBWQueryDesigner': value="0" -->
+  <DefaultBWQueryDesigner />
+  <!--default of 'EnablePreferredPlatform': value="True" -->
+  <EnablePreferredPlatform />
+  <!--default of 'EnableResetDataSource': value="True" -->
+  <EnableResetDataSource />
+  <!--default of 'GatewayServiceNo': value="-1" -->
+  <GatewayServiceNo />
+  <!--default of 'IgnoreQueryDesignerVersionCheck': value="False" -->
+  <IgnoreQueryDesignerVersionCheck />
+  <!--default of 'MaxNumberOfParallelThreads': value="10" -->
+  <MaxNumberOfParallelThreads />
+  <!--default of 'NoSystemMessages': value="False" -->
+  <NoSystemMessages />
+  <!--default of 'OpenDSTreeView': value="False" -->
+  <OpenDSTreeView />
+  <!--default of 'PreferredPlatform': value="0" -->
+  <PreferredPlatform />
+  <!--default of 'PromptForCertificate': value="False" -->
+  <PromptForCertificate />
+  <!--default of 'RecentListSize': value="10" -->
+  <RecentListSize />
+  <!--default of 'RemoveDataBeforeSaving': value="False" -->
+  <RemoveDataBeforeSaving />
+  <!--default of 'ResultSetSizeLimit': value="500000" -->
+  <ResultSetSizeLimit value="500000" />
+  <!--default of 'RfcBundling': value="True" -->
+  <RfcBundling />
+  <!--default of 'SaveAnalysisViewInCrystalReportsCompatibleFormat': value="True" -->
+  <SaveAnalysisViewInCrystalReportsCompatibleFormat />
+  <!--default of 'SaveAs1xByDefault': value="False" -->
+  <SaveAs1xByDefault />
+  <!--default of 'ShowBracketsForVirtualEntriesOfNonCumulativeKeyfigures': value="True" -->
+  <ShowBracketsForVirtualEntriesOfNonCumulativeKeyfigures />
+  <!--default of 'SkipPreferringSystemIpAddressOverHostName': value="False" -->
+  <SkipPreferringSystemIpAddressOverHostName />
+  <!--default of 'SubsequentRefreshDefault': value="TransactionDataOnly" -->
+  <SubsequentRefreshDefault />
+  <!--default of 'SupportsSaveAs1x': value="False" -->
+  <SupportsSaveAs1x />
+  <!--default of 'UseDataSourceDeltaUpdate': value="True" -->
+  <UseDataSourceDeltaUpdate />
+  <!--default of 'UseSapUILandscapeComApi': value="True" -->
+  <UseSapUILandscapeComApi value="False" />
+  <!--default of 'UseThreadPool': value="True" -->
+  <UseThreadPool />
+  <!--### DateTimeConfiguration ###-->
+  <!--default of 'EnableNativeFormatting': value="False" -->
+  <EnableNativeFormatting />
+  <!--default of 'ShowUtcTimeStampsInDataCells': value="False" -->
+  <ShowUtcTimeStampsInDataCells />
+  <!--### DocumentConfiguration ###-->
+  <!--default of 'DefaultWorkbookPath': value="" -->
+  <DefaultWorkbookPath value="H:\Data\SAP BOA\NovartisDef.xlsm" />
+  <!--default of 'DocumentCacheFolderPath': value="" -->
+  <DocumentCacheFolderPath />
+  <!--default of 'IsCachingDocuments': value="True" -->
+  <IsCachingDocuments />
+  <!--default of 'StylesCountPerformanceTreshold': value="2000" -->
+  <StylesCountPerformanceTreshold />
+  <!--### FormulaConfiguration ###-->
+  <!--default of 'SetFilterComponentApplyToAllDataSources': value="True" -->
+  <SetFilterComponentApplyToAllDataSources />
+  <!--### FormulaEditorConfiguration ###-->
+  <!--default of 'FormulaExpressionValidationInterval': value="2" -->
+  <FormulaExpressionValidationInterval />
+  <!--### GridConfiguration ###-->
+  <!--default of 'EnableDoubleClick': value="True" -->
+  <EnableDoubleClick />
+  <!--default of 'NrOfSingleCellsInContext': value="100" -->
+  <NrOfSingleCellsInContext value="1000" />
+  <!--### HanaConfiguration ###-->
+  <!--default of 'HanaHttpConnectionTimeout': value="-1" -->
+  <HanaHttpConnectionTimeout />
+  <!--default of 'HanaHttpSessionPingInterval': value="180" -->
+  <HanaHttpSessionPingInterval />
+  <!--### NavPaneConfiguration ###-->
+  <!--default of 'ShowAllHierarchies': value="False" -->
+  <ShowAllHierarchies />
+  <!--default of 'ShowProperties': value="False" -->
+  <ShowProperties />
+  <!--### NewLinesConfiguration ###-->
+  <!--default of 'UseNewLinesLegacyMode': value="False" -->
+  <UseNewLinesLegacyMode />
+  <!--### PaGridConfiguration ###-->
+  <!--default of 'ColumnsOfData': value="12" -->
+  <ColumnsOfData />
+  <!--default of 'LinesOfData': value="12" -->
+  <LinesOfData />
+  <!--### PlanningConfiguration ###-->
+  <!--default of 'ActivateFormulaRecognitionOnExistingCells': value="True" -->
+  <ActivateFormulaRecognitionOnExistingCells />
+  <!--default of 'AutoCompleteFetchMemberLimit': value="30" -->
+  <AutoCompleteFetchMemberLimit />
+  <!--default of 'IgnoreCaseForNewLineCharacteristics': value="False" -->
+  <IgnoreCaseForNewLineCharacteristics />
+  <!--default of 'InputReadyCellsValueHelpMemberAccessMode': value="" -->
+  <InputReadyCellsValueHelpMemberAccessMode />
+  <!--default of 'NewLineCheckMode': value="NONE" -->
+  <NewLineCheckMode />
+  <!--default of 'NumberOfNewLines': value="5" -->
+  <NumberOfNewLines />
+  <!--default of 'SetEmptiedDoubleDataCellsToValue0': value="True" -->
+  <SetEmptiedDoubleDataCellsToValue0 />
+  <!--default of 'ShowNewLinesOnTop': value="False" -->
+  <ShowNewLinesOnTop />
+  <!--### SelectorConfiguration ###-->
+  <!--default of 'AllowLeavesViewInHierarchicalSelector': value="True" -->
+  <AllowLeavesViewInHierarchicalSelector />
+  <!--default of 'DoSelectorHierarchyExplicitSelection': value="False" -->
+  <DoSelectorHierarchyExplicitSelection value="true" />
+  <!--default of 'EnableMassDataSelector': value="True" -->
+  <EnableMassDataSelector />
+  <!--default of 'EnforceDatePickerForCalendarDayVariable': value="False" -->
+  <EnforceDatePickerForCalendarDayVariable />
+  <!--default of 'FetchMemberLimit': value="1000" -->
+  <FetchMemberLimit />
+  <!--default of 'PasteMemberParsingOptions': value="All" -->
+  <PasteMemberParsingOptions />
+  <!--default of 'PropagateSelectionInStructures': value="False" -->
+  <PropagateSelectionInStructures />
+  <!--### TaskPaneConfiguration ###-->
+  <!--default of 'SynchronizeRuleEditorWithCrosstab': value="True" -->
+  <SynchronizeRuleEditorWithCrosstab />
+  <!--default of 'TaskPaneDockPosition': value="1" -->
+  <TaskPaneDockPosition />
+  <!--default of 'TaskPaneHeight': value="975" -->
+  <TaskPaneHeight />
+  <!--default of 'TaskPaneWidth': value="498" -->
+  <TaskPaneWidth />
+  <!--### UiCommonConfiguration ###-->
+  <!--default of 'CheckInfoAreasAuthorization': value="False" -->
+  <CheckInfoAreasAuthorization />
+  <!--default of 'ForceRefreshConnectionInfo': value="False" -->
+  <ForceRefreshConnectionInfo />
+  <!--default of 'HierarchyCollapsePaddingCols': value="     " -->
+  <HierarchyCollapsePaddingCols />
+  <!--default of 'HierarchyCollapsePaddingRows': value="     " -->
+  <HierarchyCollapsePaddingRows />
+  <!--default of 'HierarchyCollapseSymbolCols': value="[-]" -->
+  <HierarchyCollapseSymbolCols />
+  <!--default of 'HierarchyCollapseSymbolRows': value="[-]" -->
+  <HierarchyCollapseSymbolRows />
+  <!--default of 'HierarchyExpandPaddingCols': value="     " -->
+  <HierarchyExpandPaddingCols />
+  <!--default of 'HierarchyExpandPaddingRows': value="     " -->
+  <HierarchyExpandPaddingRows />
+  <!--default of 'HierarchyExpandSymbolCols': value="[+]" -->
+  <HierarchyExpandSymbolCols />
+  <!--default of 'HierarchyExpandSymbolRows': value="[+]" -->
+  <HierarchyExpandSymbolRows />
+  <!--default of 'MessagePopupSeverity': value="" -->
+  <MessagePopupSeverity />
+  <!--default of 'ShowSuppressedMessages': value="False" -->
+  <ShowSuppressedMessages />
+  <!--default of 'TextKeyDisplay': value="Default" -->
+  <TextKeyDisplay value="KeyText" />
+  <!--default of 'UseAdvancedHierarchySettings': value="False" -->
+  <UseAdvancedHierarchySettings value="true" />
+  <!--### UsageConfiguration ###-->
+  <!--default of 'AoTenantSite': value="" -->
+  <AoTenantSite />
+  <!--default of 'ContinousUsageDataUploadIntervalInDays': value="20" -->
+  <ContinousUsageDataUploadIntervalInDays />
+  <!--default of 'FailedPingCounter': value="0" -->
+  <FailedPingCounter />
+  <!--default of 'LastContinousUsageDataUpload': value="01.01.0001" -->
+  <LastContinousUsageDataUpload />
+  <!--default of 'LastPeriodicUsageDataUpload': value="200000" -->
+  <LastPeriodicUsageDataUpload />
+  <!--default of 'TrackUsage': value="True" -->
+  <TrackUsage />
+  <!--default of 'UsageDataPauseDate': value="01.01.0001" -->
+  <UsageDataPauseDate />
+  <!--### UtilitiesConfiguration ###-->
+  <!--default of 'AbapTrace': value="0" -->
+  <AbapTrace />
+  <!--default of 'AlwaysDoApplicationSteps': value="False" -->
+  <AlwaysDoApplicationSteps />
+  <!--default of 'BexAdvancedMode': value="False" -->
+  <BexAdvancedMode value="true"/>
+  <!--default of 'CancelPopupDelay': value="5" -->
+  <CancelPopupDelay />
+  <!--default of 'CheckIfWorkbookIsInplaceWhenWindowIsActivated': value="True" -->
+  <CheckIfWorkbookIsInplaceWhenWindowIsActivated />
+  <!--default of 'Profiling': value="False" -->
+  <Profiling />
+  <!--default of 'ShowConvertToForumulaInToolsGroup': value="True" -->
+  <ShowConvertToForumulaInToolsGroup />
+  <!--default of 'ShowCreateWebApplicationInToolsGroup': value="False" -->
+  <ShowCreateWebApplicationInToolsGroup />
+  <!--default of 'ShowPlanningToolbar': value="False" -->
+  <ShowPlanningToolbar />
+  <!--default of 'ShowSsoLogonDialog': value="False" -->
+  <ShowSsoLogonDialog />
+  <!--default of 'ShowSsoLogonDialogBip': value="False" -->
+  <ShowSsoLogonDialogBip />
+  <!--default of 'SupportAutomatedOffice': value="False" -->
+  <SupportAutomatedOffice />
+  <!--default of 'UndoStackSize': value="10" -->
+  <UndoStackSize />
+  <!--### VariableConfiguration ###-->
+  <!--default of 'AllowLiteralMemberSelectionsInVariablesHana': value="True" -->
+  <AllowLiteralMemberSelectionsInVariablesHana />
+  <!--default of 'DisplayCompoundAsKeys': value="False" -->
+  <DisplayCompoundAsKeys value="true"/>
+  <!--default of 'MergeVariables': value="False" -->
+  <MergeVariables />
+  <!--default of 'OperatorContainsPattern': value="False" -->
+  <OperatorContainsPattern value="true"/>
+  <!--default of 'PreferLeavesOverNodesInInputString': value="True" -->
+  <PreferLeavesOverNodesInInputString />
+  <!--default of 'PromptWhenInsertingDataSource': value="True" -->
+  <PromptWhenInsertingDataSource />
+  <!--default of 'ShowDSVariantsForWorkbooksWithOneDS': value="False" -->
+  <ShowDSVariantsForWorkbooksWithOneDS />
+  <!--default of 'TextKeyDisplayForPrompts': value="Default" -->
+  <TextKeyDisplayForPrompts />
+  <!--### WaterfallChartConfiguration ###-->
+  <!--default of 'RGBValueColumns': value="#808080" -->
+  <RGBValueColumns />
+  <!--default of 'RGBValueNegative': value="#FF000C" -->
+  <RGBValueNegative />
+  <!--default of 'RGBValuePositive': value="#90CE00" -->
+  <RGBValuePositive />
+  <!--### WorkbookConversionConfiguration ###-->
+  <!--default of 'ConversionType': value="0" -->
+  <ConversionType />
+  <!--default of 'EnableAnalysisViewConversion': value="False" -->
+  <EnableAnalysisViewConversion value="true" />
+  <!--default of 'EnableWorkbookConversion': value="True" -->
+  <EnableWorkbookConversion />
+  <!--default of 'LogType': value="0" -->
+  <LogType />
+  <!--default of 'RefreshType': value="0" -->
+  <RefreshType />
+  <!--default of 'ShowSaveDialog': value="False" -->
+  <ShowSaveDialog value="true" />
+  <!--### WorkspaceConfiguration ###-->
+  <!--default of 'EnableWorkspaces': value="True" -->
+  <EnableWorkspaces />
+  <WrapHierarchyNodesInColumns value="True" />
+</configuration>
